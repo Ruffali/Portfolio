@@ -86,18 +86,18 @@
 }
 
 .news-bg-2 {
-  background-image: url(../img/news/fitness.jpg);
-  background-position: 100% 0%!important;
+  background-image   : url(../img/news/fitness.jpg);
+  background-position: 100% 0% !important;
 }
 
 .news-bg-3 {
-  background-image: url(../img/news/dance.jpg);
-  background-position: 100% 20%!important;
+  background-image   : url(../img/news/dance.jpg);
+  background-position: 100% 20% !important;
 }
 
 .news-bg-4 {
-  background-image: url(../img/news/code.jpg);
-  background-position: 100% 20%!important;
+  background-image   : url(../img/news/code.jpg);
+  background-position: 100% 20% !important;
 }
 
 /* 1.4. slick fullscreen - ken burns slideshow ZOOM/FADE IMG BACKGROUND */
@@ -1883,7 +1883,7 @@ textarea:focus:-moz-placeholder {
 
 .skillbar-title {
   position      : absolute;
-  width         : 190px;
+  width         : fit-content;
   height        : 21px;
   line-height   : 21px;
   top           : -20px;
@@ -3323,7 +3323,7 @@ p.text {
     -o-background-size     : cover;
     background-size        : cover;
     /* uncomment the following to show an image for mobile devices */
-    /* display: block; */
+    /* display             : block; */
   }
 }
 
@@ -3358,7 +3358,7 @@ p.text {
     -o-background-size     : cover;
     background-size        : cover;
     /* uncomment the following to show an image for mobile devices */
-    /* display: block; */
+    /* display             : block; */
   }
 
   #vimeo-videoContainment {
@@ -3403,7 +3403,7 @@ p.text {
     -o-background-size     : cover;
     background-size        : cover;
     /* uncomment the following to show an image for mobile devices */
-    /* display: block; */
+    /* display             : block; */
   }
 }
 
@@ -3487,44 +3487,53 @@ p.text {
     font-size: 50px;
     margin   : 0 auto -1px auto;
   }
-  .skillbar{
+
+  .skillbar {
     margin: 0 0 10px 0;
   }
-  .skillbar .skillbar-title, .skillbar .skill-bar-percent{
+
+  .skillbar .skillbar-title,
+  .skillbar .skill-bar-percent {
     font-size: 11px;
-    top: -12px;
+    top      : -12px;
   }
-  .myGallery .galleries{
+
+  .myGallery .galleries {
     width: 100%;
   }
-  .myGallery .galleries .top-to-gallery a{
-    width: 35px;
-    height: 35px;
+
+  .myGallery .galleries .top-to-gallery a {
+    width      : 35px;
+    height     : 35px;
     line-height: 35px;
-    font-size: 14px;
+    font-size  : 14px;
   }
-  .social-icons-start-ul{
-    display: flex;
-    flex-wrap: wrap;
+
+  .social-icons-start-ul {
+    display        : flex;
+    flex-wrap      : wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items    : center;
   }
-  .social-icons-start-ul li{
+
+  .social-icons-start-ul li {
     margin-top: 10px;
   }
-  .bg-img-3{
+
+  .bg-img-3 {
     background-position: 10% 30% !important;
   }
 }
 
 @media only screen and (max-width: 1200px) {
-  .social-icons-start-ul{
-    display: flex;
-    flex-wrap: wrap;
+  .social-icons-start-ul {
+    display        : flex;
+    flex-wrap      : wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items    : center;
   }
-  .social-icons-start-ul li{
+
+  .social-icons-start-ul li {
     margin-top: 10px;
   }
 }
